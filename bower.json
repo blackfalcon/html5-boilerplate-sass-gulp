@@ -1,0 +1,22 @@
+{
+  "name": "html5-boilerplate-sass-gulp",
+  "description": "quick sandbox for dev",
+  "main": "gulpfile.js",
+  "authors": [
+    "Dale Sande <dale.sande@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "sass",
+    "gulp",
+    "h5bp"
+  ],
+  "homepage": "https://github.com/blackfalcon/html5-boilerplate-sass-gulp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
