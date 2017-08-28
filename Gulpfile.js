@@ -36,7 +36,8 @@ gulp.task('build:css', function() {
 gulp.task('serve', ['build:css'], function() {
 
     browserSync.init({
-        server: "./"
+        server: "./",
+        port: 8080
     });
 
     gulp.watch('./sass/{,*/}*.{scss,sass}', ['build:css']);
